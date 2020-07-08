@@ -1,145 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Practice</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <style>
-        body{
-            height: 6000px;
-        }
-        h1{
-            margin-top: 100px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Practice</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <style>
+
+    body {
+      height: 6000px;
+      background-color: cadetblue;
+      margin: 29px;
+    }
+
+    h1 {
+      margin-top: 100px;
+    }
+
+    #felx-container{
+      height: 200px;
+      background-color: aquamarine;
+    }
+  </style>
 
 </head>
+
 <body>
-    <h1>Hello From BOOTSTRAP</h1>
-    <button class="btn btn-primary"> Himel</button>
-    <button class="btn btn-secondary" style="border-radius: 40%;"> Himel</button>
-    <button class="btn btn-warning"> Himel</button>
-    <button class="btn btn-primary"> Himel</button>
-    <button class="btn btn-primary"> Himel</button>
+  <h1>Hello From BOOTSTRAP</h1>
+  <button class="btn btn-primary"> Himel</button>
+  <button class="btn btn-secondary" style="border-radius: 40%;"> Himel</button>
+  <button class="btn btn-warning"> Himel</button>
+  <button class="btn btn-primary"> Himel</button>
+  <button class="btn btn-primary"> Himel</button>
 
 
-    <h1 class="text-secondary"> Colors</h1>
-    <h1 class="text-primary"> Colors</h1>
+  <h1 class="text-secondary"> Colors</h1>
+  <h1 class="text-primary"> Colors</h1>
 
-    <h1> Backgrounds</h1>
-    <div class="bg-success text-white">
-        <h1> My Hobby</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur quasi provident quos sunt deleniti. Eveniet dolore quibusdam quos, consectetur nam, amet modi tempore, et provident enim consequatur voluptate atque.
-        </p>
+  <h1> Backgrounds</h1>
+  <div class="bg-success text-white">
+    <h1> My Hobby</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur quasi provident quos sunt deleniti.
+      Eveniet dolore quibusdam quos, consectetur nam, amet modi tempore, et provident enim consequatur voluptate atque.
+    </p>
+  </div>
+
+  <div>
+    <h1>My Images</h1>
+
+    <img class="img-fluid w-25 rounded-circle" src="images/himel1.jpg" alt="">
+    <img class="img-fluid w-25 rounded-circle" src="images/himel2.jpg" alt="">
+    <img class="img-fluid w-25 rounded-circle" src="images/himel3.jpg" alt="">
+  </div>
+
+  <div class="card" style="width: 20rem;">
+    <img src="images/himel1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
     </div>
-
-    <div>
-        <h1>My Images</h1>
-        
-        <img class="img-fluid w-25 rounded-circle" src="images/himel1.jpg" alt="">
-        <img class="img-fluid w-25 rounded-circle" src="images/himel2.jpg" alt="">
-        <img class="img-fluid w-25 rounded-circle" src="images/himel3.jpg" alt="">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
     </div>
+  </div>
 
-    <div class="card" style="width: 20rem;">
-        <img src="images/himel1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
 
-    
-      <h1>Card GROUPS</h1>
+  <h1>Card GROUPS</h1>
 
-      <div class="card-deck">
-        <div class="card">
-          <img src="images/himel1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-success">Silver</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/himel2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Gold</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/himel3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Platinum</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/himel1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-success">Silver</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
       </div>
-
-      <h1>NAVIGATION</h1>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-
-  
-      <h1>Grid</h1>
-      <div class="row">
-      <div class="col-2" style="border-radius: 10%; border: 2px solid red;">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore?  </p>
-      </div>
-      <div class="col-3" style="border-radius: 10%; border: 2px solid red;">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore?  </p>
-      </div>
-      <div class="col-3" style="border-radius: 10%; border: 2px solid red;">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore?  </p>
-      </div>
-      <div class="col-4" style="border-radius: 10%; border: 2px solid red;">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore?  </p>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
+    <div class="card">
+      <img src="images/himel2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gold</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/himel3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Platinum</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
 
-  
+  <h1>NAVIGATION</h1>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <h1>Grid</h1>
+  <div class="row">
+    <div class="col-2" style="border-radius: 10%; border: 2px solid red;">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+    <div class="col-3" style="border-radius: 10%; border: 2px solid red;">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+    <div class="col-3" style="border-radius: 10%; border: 2px solid red;">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+    <div class="col-4" style="border-radius: 10%; border: 2px solid red;">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+  </div>
+
+  <!-- Responsive Grid -->
+
+
+
+  <h1>Grid Responsive</h1>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, excepturi modi sed molestiae cupiditate quis
+        doloribus praesentium a, corrupti ex asperiores dolores enim illo dignissimos ipsum, obcaecati suscipit soluta
+        et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta tempora qui, esse facilis optio asperiores
+        laudantium iste perferendis, earum ipsam quae accusantium quam sit non illo fugit numquam, dolore assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim similique, nulla quasi reiciendis quis eveniet
+        inventore dicta a est cupiditate iste nihil sed, quae officiis voluptas fuga? Unde, neque dolore? </p>
+    </div>
+  </div>
+
+
+
+  <!-- Carousel -->
+  <container>
+    <h1> Carousel</h1>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/himel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/himel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/himel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </container>
+
+  <!-- Flex Layout -->
+  <h1>Flex Layout</h1>
+
+  <div class="container">
+    <div class="d-flex justify-content-around align-items-center" id="felx-container">
+      <div>SHABNUR</div>
+      <div>SHABANA</div>
+      <div>SHABITA</div>
+    </div>
+
+    <div class="d-flex flex-row bd-highlight mb-3">
+      <div class="p-2 bd-highlight">Flex item 1</div>
+      <div class="p-2 bd-highlight">Flex item 2</div>
+      <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+
+  </div>
 
 
 
@@ -148,8 +269,17 @@
 
 
 
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
